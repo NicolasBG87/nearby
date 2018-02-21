@@ -1,0 +1,53 @@
+///// ----- BASIC RESET ----- /////
+* {
+  margin: 0;
+  padding: 0;
+}
+
+///// ----- BODY ----- /////
+body {
+  height: 100%;
+  background: #23074d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+///// ----- BUTTONS ----- /////
+.btn-option {
+  width: 100%;
+  text-transform: uppercase;
+  &:hover {
+    background-color: orange;
+    color: #fff;
+  }
+}
+#dropDown {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+///// ----- RESULTS ----- /////
+#main {
+  margin: 0 auto;
+  margin-top: 100px;
+  img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  .card {
+    padding: 10px;
+    border: 2px solid rgb(253, 170, 14);
+    width: 18rem;
+    @media screen and (max-width: 766px) {
+      margin: 0 auto;
+    }
+  }
+}
+
+///// ----- GOOGLE MAP ----- /////
+#map {
+  height: 500px;
+  padding: 20px;
+  border-radius: 5px;
+}

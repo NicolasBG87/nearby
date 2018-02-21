@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  background: #23074d;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cc5333, #23074d);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cc5333, #23074d);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-option {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.btn-option:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+#dropDown {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#main {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+#main img {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+#main .card {
+  padding: 10px;
+  border: 2px solid #fdaa0e;
+  width: 18rem;
+}
+
+@media screen and (max-width: 766px) {
+  #main .card {
+    margin: 0 auto;
+  }
+}
+
+#map {
+  height: 500px;
+  padding: 20px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=main.css.map */
